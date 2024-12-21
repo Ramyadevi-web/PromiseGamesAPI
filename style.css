@@ -1,0 +1,45 @@
+
+.outputContainer{
+    display: flex;
+    justify-content: center;
+    margin-top: 30px;
+    
+}
+.dropdown{
+    width: auto;
+    margin: 5% auto;
+    display: flex;
+    justify-content: center;
+}
+
+.dropdown-menu{
+    padding: 10px;
+}
+.dropdown-menu > li{
+    border-bottom: 1px solid purple;
+    cursor : pointer;
+}
+
+.dropdown-menu > li:hover {
+    background-color: purple;  /* Change background on hover */
+    color: white;               /* Change text color on hover */
+    transition: background-color 0.3s, color 0.3s; /* Smooth transition */
+}
+.outputCard{
+    box-shadow: 3px 3px 8px;
+    border: 1px solid purple;
+    width: auto;
+}
+span{
+    font-weight: bold;
+}
+a{
+    color : purple;
+    font-weight: 500;
+}
+.heading{
+    color:purple;
+    text-align: center;
+    margin-top:30px;
+    font-weight: bold;
+}
